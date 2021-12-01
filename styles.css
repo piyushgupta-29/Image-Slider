@@ -1,13 +1,27 @@
-/* body{
-    background-color: rgb(52, 29, 255);
-}
-.container{
-    position: relative;
-}
+
 button{
-    position: absolute;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.5);
 }
-img{
+.container-fluid{
+    background-color: white;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #image{
     width: 100%;
-    height: 100%;
 } */
+#btn1{
+    position: absolute;
+    top: 50%; 
+    left: 0px; 
+}
+#btn2{
+    position: absolute;
+    top: 50%; 
+    right: 0px;
+} 
